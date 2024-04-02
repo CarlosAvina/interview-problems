@@ -1,0 +1,16 @@
+.controls {
+  width: 50vw;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  grid-template-rows: 50px 1fr 50px;
+}
+
+.pink {
+  position: absolute;
+  background-color: pink;
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+}
